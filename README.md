@@ -10,6 +10,9 @@ Ansible documentation is annoying.  This page will include lots of links to the 
 ## Developing a Module
 
 ## Developing a Collection
+- Pathing in collections is annoying.  Once you figure it out it's not a big deal.  Ansible is looking for a directory called `ansible_collections` as the root of the collection.  Make sure your collection is in there and it will all be good.
+
+## Module Documentation
 
 
 ## Debugging Ansible

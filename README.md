@@ -10,6 +10,9 @@ Ansible documentation is annoying.  This page will include lots of links to the 
 ## Developing a Module
 
 ### Developing a Module in a Role
+The documentation for the directory layout for your role so that it can include a Module.
+
+-[Directory Layout for Modules](https://docs.ansible.com/ansible/2.9/user_guide/playbooks_reuse_roles.html#embedding-modules-and-plugins-in-roles)
 
 ### Developing a Module in a Collection
 - Pathing in collections is annoying.  Once you figure it out it's not a big deal.  Ansible is looking for a directory called `ansible_collections` as the root of the collection.  Make sure your collection is in there and it will all be good.

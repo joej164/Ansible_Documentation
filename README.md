@@ -25,7 +25,7 @@ This has information about creating common python modules for your code.  Also h
 The last link is basically from the github page, just a tad easier to read.
 
 ## Module Documentation
-
+- []()
 
 ## Debugging Ansible
 The key to remember is you are essentially "compiling" the ansible code into a zip file, then you run the zip file with python.  Python will invoke the PDB trace you insert and you can see what's going on from there.
@@ -44,6 +44,6 @@ The key to remember is you are essentially "compiling" the ansible code into a z
 
 ### Testing with Molecule
 Molecule is the official testing platform for Ansible.
-[]()
+- [Molecule Documentation](https://molecule.readthedocs.io/en/latest/)
 
 ## Linting

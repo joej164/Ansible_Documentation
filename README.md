@@ -12,6 +12,15 @@ Ansible documentation is annoying.  This page will include lots of links to the 
 ## Developing a Collection
 - Pathing in collections is annoying.  Once you figure it out it's not a big deal.  Ansible is looking for a directory called `ansible_collections` as the root of the collection.  Make sure your collection is in there and it will all be good.
 
+## Module Utilities
+This has information about creating common python modules for your code.  Also has information about using module utilities already included with Ansible for use in developing your own modules.
+
+- [Module Utilities](https://docs.ansible.com/ansible/latest/dev_guide/developing_module_utilities.html)
+- [Source Code from Github](https://github.com/ansible/ansible/tree/devel/lib/ansible/module_utils)
+- [Reference Manual](https://docs.ansible.com/ansible/latest/reference_appendices/module_utils.html)
+
+The last link is basically from the github page, just a tad easier to read.
+
 ## Module Documentation
 
 

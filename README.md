@@ -7,6 +7,20 @@ Ansible documentation is annoying.  This page will include lots of links to the 
 - [Getting Started with Sample Code](https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html)
 
 ## Developing a Module
+### Dev Environment
+Here are some useful tips for being able set up your dev environment so you can test out all the features of your role
+
+#### Ansible Configuration
+While writing the documentation, since the role is not installed "properly" testing out things like `ansible-doc` can be difficult.  Create a file called `ansible.cfg` (or one of the other methods described in the ansible doc config info) to set the settings below.
+
+```
+[defaults]
+library = ./
+module_utils = ./module_utils
+doc_fragment_plugins = ./plugins/doc_fragments
+```
+
+- [Ansible Configuration](https://docs.ansible.com/ansible/latest/reference_appendices/config.html)
 
 ### Developing a Module in a Role
 The documentation for the directory layout for your role so that it can include a Module.
@@ -26,6 +40,7 @@ The last link is basically from the github page, just a tad easier to read.
 
 ## Module Documentation
 - [Module Documentation Guide](https://docs.ansible.com/ansible/2.9/dev_guide/developing_modules_documenting.html)
+
 
 ## Debugging Ansible
 The key to remember is you are essentially "compiling" the ansible code into a zip file, then you run the zip file with python.  Python will invoke the PDB trace you insert and you can see what's going on from there.

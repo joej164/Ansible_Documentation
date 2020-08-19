@@ -22,6 +22,11 @@ doc_fragment_plugins = ./plugins/doc_fragments
 
 - [Ansible Configuration](https://docs.ansible.com/ansible/latest/reference_appendices/config.html)
 
+#### Python Modules
+- ansible
+- molecule
+- docker
+
 ### Developing a Module in a Role
 The documentation for the directory layout for your role so that it can include a Module.
 - [Directory Layout for Modules](https://docs.ansible.com/ansible/2.9/user_guide/playbooks_reuse_roles.html#embedding-modules-and-plugins-in-roles)

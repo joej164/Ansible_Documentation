@@ -24,6 +24,7 @@ doc_fragment_plugins = ./plugins/doc_fragments
 
 #### Python Modules
 - ansible
+- ansible-lint
 - molecule
 - docker
 

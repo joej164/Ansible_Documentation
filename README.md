@@ -2,9 +2,9 @@
 Links to all the docs referenced for writing ansible modules
 
 ## Overview
-Ansible documentation is annoying.  This page will include lots of links to the useful bits if info needed to develop an ansible module
+Ansible documentation is annoying.  This page will include lots of links to the useful bits if info needed to develop an ansible module.
 - [Module Development](https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html)
-- [Getting Started with Sample Code](https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html)
+- [Getting Started with Template Code](https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html)
 
 ## Developing a Module
 ### Dev Environment

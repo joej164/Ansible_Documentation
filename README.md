@@ -35,7 +35,7 @@ The documentation for the directory layout for your role so that it can include 
 - Pathing in collections is annoying.  Once you figure it out it's not a big deal.  Ansible is looking for a directory called `ansible_collections` as the root of the collection.  Make sure your collection is in there and it will all be good.
 
 ## Module Utilities
-This has information about creating common python modules for your code.  Also has information about using module utilities already included with Ansible for use in developing your own modules.
+This has information about creating common/reusable python modules for your code.  Also has information about using module utilities already included with Ansible for use in developing your own modules.
 
 - [Module Utilities](https://docs.ansible.com/ansible/latest/dev_guide/developing_module_utilities.html)
 - [Source Code from Github](https://github.com/ansible/ansible/tree/devel/lib/ansible/module_utils)

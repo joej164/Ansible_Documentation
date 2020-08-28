@@ -52,7 +52,9 @@ The last link is basically from the github page, just a tad easier to read.
 The key to remember is you are essentially "compiling" the ansible code into a zip file, then you run the zip file with python.  Python will invoke the PDB trace you insert and you can see what's going on from there.
 - [Debugging](https://docs.ansible.com/ansible/latest/dev_guide/debugging.html)
 
-
+## Parameter Validation
+Being able to validate combinations of parameters is super helpful
+- [Module Parameter Validation](https://www.cloudright.io/notes/ansible-module-parameter-validation/)
 
 []()
 []()

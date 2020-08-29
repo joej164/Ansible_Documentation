@@ -56,7 +56,7 @@ The key to remember is you are essentially "compiling" the ansible code into a z
 Being able to validate combinations of parameters is super helpful
 - [Module Parameter Validation](https://www.cloudright.io/notes/ansible-module-parameter-validation/)
 - [PR with example of all Validations](https://github.com/ansible/ansible/pull/28662)
-[]()
+- [Docs that describe the options also](https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general_windows.html)
 []()
 
 
